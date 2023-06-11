@@ -17,10 +17,5 @@ pipeline {
                 echo 'Hello World'
             }
         }
-          stage('Ashrutha') {
-            steps {
-                echo 'Hello World'
-            }
-        }
     }
 }
