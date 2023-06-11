@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Amrutha') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+          stage('Anushrutha') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+          stage('Dhanush') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
